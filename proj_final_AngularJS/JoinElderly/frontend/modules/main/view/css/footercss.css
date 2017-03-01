@@ -1,0 +1,71 @@
+/*********Terminos***********/
+
+#terminos>h2 {
+    text-align: center;
+    margin-top: 2em;
+}
+
+#terminos p, #terminos h3 {
+    padding-left: 1.5em;
+    text-align: justify;
+}
+
+#terminos p {
+    padding-right: 1em;
+}
+
+/*********Politica***********/
+
+#politica>h2 {
+    text-align: center;
+    margin-top: 2em;
+}
+
+#politica p, #politica h3 {
+    padding-left: 1.5em;
+    text-align: justify;
+}
+
+#politica p {
+    padding-right: 1em;
+}
+
+span.navegadores {
+    font-weight: bold;
+}
+
+/*********Aviso***********/
+
+#aviso>h2 {
+    text-align: center;
+    margin-top: 2em;
+}
+
+#aviso p, #aviso h3 {
+    padding-left: 1.5em;
+    text-align: justify;
+}
+
+#aviso p {
+    padding-right: 1em;
+}
+
+#aviso p#subapar {
+    padding-left: 3em;
+}
+
+/*********Trabaja***********/
+
+#trabaja>h2 {
+    text-align: center;
+    margin-top: 2em;
+}
+
+#trabaja p, #trabaja h3 {
+    padding-left: 1.5em;
+    text-align: justify;
+}
+
+#trabaja p {
+    padding-right: 1em;
+}

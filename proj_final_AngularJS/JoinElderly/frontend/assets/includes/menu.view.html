@@ -1,0 +1,21 @@
+    <!-- Header -->
+    <div ng-controller="menuCtrl">
+        <div id="alertbanner" ng-show="bannerV"><a  ng-class='bannerClass'>{{bannerText}}</a></div>
+        <header id="header">
+            <h1><img class="logo" src="frontend/assets/media/Logo.png" alt="70" width="70" /><a class="titulomain" href="#/">JoinElderly</a></h1>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#/">Home</a></li>
+                    <li><a href="#/ofertas">Ofertas</a></li>
+                    <li><a href="#/contact">Contacto</a></li>
+                    <li id="opt"><a href='#/ofertas' ng-show="misofertasV">Mis ofertas</a>
+                        <a href='#/admin' ng-show="adminV">Administrar</a></li>
+                    <li id="LogProf">
+                        <a id="acceder" ng-show="accederV" href="" class="button special" ng-click="open()"  >Acceder</a>
+                        <a id='profile' ng-show="profileV" href='#/user/profile'><img ng-show="profileV" id='menuImg' class='icon rounded' src='{{avatar}}'/>{{nombre}}</a>
+                    </li>
+                    <li><a id='logout' ng-show="logoutV" ng-click='logout()' >Log Out</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
